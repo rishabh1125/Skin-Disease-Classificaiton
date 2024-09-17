@@ -48,6 +48,7 @@ This project is a Streamlit-based web application for image classification using
 - `src/`: Main application files
 - `data/`: Sample images are stored here.
 - `model/`: Directory containing the pre-trained TensorFlow models
+- `train_model/`: Jupyter notebook code to train the models on Kaggle with notebook output.
 - `requirements.txt`: List of Python dependencies
 - `.dvc/`: DVC configuration files for data version control
 
