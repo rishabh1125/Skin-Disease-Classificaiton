@@ -1,0 +1,7 @@
+dvc==3.55.2
+dvc-gdrive==3.0.1
+numpy==1.26.4
+pandas==2.2.2
+streamlit==1.38.0
+streamlit-image-select==0.6.0
+tensorflow==2.17.0

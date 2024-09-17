@@ -1,0 +1,5 @@
+outs:
+- md5: e090d037c12617bfae2a280e38feaf3f
+  size: 120179080
+  hash: md5
+  path: cnn_model.h5
