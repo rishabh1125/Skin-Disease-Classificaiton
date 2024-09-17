@@ -70,7 +70,7 @@ if st.button("Classify Image"):
         # Display the prediction results
         st.subheader("Classification Results:")
         st.write(f"Predicted disease: {prediction[0][0]}")
-        prediction = pd.DataFrame(prediction, columns=['disease', 'confidence'])
+        prediction = pd.DataFrame(prediction, columns=['disease', 'confidence (in %)'])
         # Visualize the results with a bar chart
         st.bar_chart(prediction, x='disease', y='confidence (in %)')
     else:
