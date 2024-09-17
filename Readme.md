@@ -12,8 +12,8 @@ This project is a Streamlit-based web application for image classification using
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/image-classification-app.git
-   cd image-classification-app
+   git clone https://github.com/rishabh1125/Skin-Disease-Classificaiton.git
+   cd Skin-Disease-Classificaiton
    ```
 
 2. Create a virtual environment and activate it:
@@ -25,6 +25,11 @@ This project is a Streamlit-based web application for image classification using
 3. Install the required packages:
    ```
    pip install -r requirements.txt
+   ```
+
+4. Download all models from dvc
+   ```
+   dvc pull
    ```
 
 ## Usage
@@ -41,6 +46,7 @@ This project is a Streamlit-based web application for image classification using
 ## Project Structure
 
 - `src/`: Main application files
+- `data/`: Sample images are stored here.
 - `model/`: Directory containing the pre-trained TensorFlow models
 - `requirements.txt`: List of Python dependencies
 - `.dvc/`: DVC configuration files for data version control
